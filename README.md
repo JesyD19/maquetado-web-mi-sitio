@@ -10,13 +10,13 @@ Este es un proyecto de maquetado responsive, basado en el diseño de Figma del d
 
 ## Cómo ver el proyecto
 
-Abrí el archivo `index.html` en tu navegador favorito para ver el sitio funcionando.
+Abre el archivo `index.html` en tu navegador favorito para ver el sitio funcionando.
 
 ## Deploy
 
 El proyecto está publicado en GitHub Pages en esta URL:
 
-[https://tu-usuario.github.io/tu-repo](https://tu-usuario.github.io/tu-repo)
+[https://jesyd19.github.io/maquetado-web-mi-sitio](https://jesyd19.github.io/maquetado-web-mi-sitio)
 
 ---
 
