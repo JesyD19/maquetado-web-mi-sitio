@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Maquetado web mi sitio</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <nav class="header__nav">
+          <img src="assets/Jessie-logo.png" alt="logo-Jessie" class="logo" />
+          <input type="checkbox" id="toggle" class="header__checkbox" />
+          <label for="toggle">
+            <img
+              src="assets/hamburguer-menu.png"
+              alt="hamburguer-menu"
+              class="header__menu-icon"
+            />
+          </label>
+          <ul class="header__menu">
+            <li><a href="#me">Quién soy</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Escríbeme</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="welcome">
+        <h1 class="welcome__title">Bienvenidos a mi sitio</h1>
+        <img
+          src="assets/me-programming.svg"
+          alt="me-programming"
+          class="welcome__image"
+        />
+      </section>
+      <section class="about-me" id="me">
+        <div class="about-me__container">
+          <h2 class="about-me__title">Soy Jessie</h2>
+          <p class="about-me__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui
+            quam, sollicitudin at enim id, sodales vehicula velit. Aenean
+            lobortis posuere tristique. Phasellus placerat arcu elementum nisi
+            ultrices cursus. Etiam sit amet aliquet lacus. Integer ut iaculis
+            augue, sit amet tincidunt ex. In eleifend justo et sodales semper.
+            Mauris nec tortor lectus. Curabitur nec ultricies dolor.
+          </p>
+        </div>
+        <div class="about-me__approved">
+          <img
+            src="assets/ok.png"
+            alt="approved-image"
+            class="about-me__approved-image"
+          />
+        </div>
+      </section>
+      <section id="services" class="my-services">
+        <div class="my-services__title">
+          <h2>Mis servicios</h2>
+        </div>
+        <div class="my-services__container">
+          <div class="my-services__service">
+            <img
+              src="assets/html.jpg"
+              alt="html-image"
+              class="my-services__image"
+            />
+            <h3 class="my-services__title-first-service">Servicio</h3>
+            <p class="my-services__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui
+              quam, sollicitudin at enim id, sodales vehicula velit. Aenean
+              lobortis posuere tristique.
+            </p>
+          </div>
+          <div class="my-services__service">
+            <img
+              src="assets/code.jpg"
+              alt="html-image"
+              class="my-services__image"
+            />
+            <h3 class="my-services__title-first-service">Servicio</h3>
+            <p class="my-services__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui
+              quam, sollicitudin at enim id, sodales vehicula velit. Aenean
+              lobortis posuere tristique.
+            </p>
+          </div>
+          <div class="my-services__service">
+            <img
+              src="assets/code2.jpg "
+              alt="html-image"
+              class="my-services__image"
+            />
+            <h3 class="my-services__title-first-service">Servicio</h3>
+            <p class="my-services__paragraph my-services__paragraph--margin">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui
+              quam, sollicitudin at enim id, sodales vehicula velit. Aenean
+              lobortis posuere tristique.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact-me" id="contact">
+        <div class="contact-me__title">
+          <h3>Escríbeme</h3>
+        </div>
+        <form class="contact-me__form">
+          <div>
+            <label for="name" class="contact-me__label">Nombre</label>
+            <input type="text" id="name" class="contact-me__input" />
+          </div>
+          <div>
+            <label
+              for="email"
+              class="contact-me__label contact-me__label--margin"
+              >Email</label
+            >
+            <input type="email" id="email" class="contact-me__input" />
+          </div>
+          <div>
+            <label
+              for="message"
+              class="contact-me__label contact-me__label--margin"
+              >Mensaje</label
+            >
+            <textarea
+              name="message"
+              id="message"
+              class="contact-me__textarea"
+            ></textarea>
+          </div>
+          <button class="contact-me__send-button">Enviar</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <div class="footer__logo-year">
+          <img
+            src="assets/Jessie-logo.png"
+            alt="logo-Jessie"
+            class="logo logo--margin"
+          />
+          <p class="footer__year">© 2025 Jessie</p>
+        </div>
+        <div class="footer__social-networks-icons">
+          <div class="footer__social-networks-container">
+            <img
+              src="assets/instagram.png"
+              alt="instagram-logo-icon"
+              class="footer__icons"
+            />
+            <p class="footer__text">Instagram</p>
+          </div>
+          <div class="footer__social-networks-container">
+            <img
+              src="assets/linkedin.png"
+              alt="linkedin-logo-icon"
+              class="footer__icons"
+            />
+            <p class="footer__text">Linkedin</p>
+          </div>
+          <div class="footer__social-networks-container">
+            <img
+              src="assets/github.png"
+              alt="github-logo-icon"
+              class="footer__icons"
+            />
+            <p class="footer__text">Github</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
